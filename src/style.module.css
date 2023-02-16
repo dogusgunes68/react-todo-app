@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    text-align: center;
 }
 .header{
     background-color: royalblue;
@@ -8,4 +9,45 @@ body{
     font-size: 2em;
     color: white;
     padding: 25px;
+}
+
+.todoform{
+    width: 300px;
+    margin: auto;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.todoinput{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+    height: 50px;
+}
+
+.todobutton{
+    width: 100%;
+    border: none;
+    height: 50px;
+    font-size: 1.2em;
+    background-color: tomato;
+}
+
+.todoitem{
+    margin: auto;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.deletebutton{
+    border: none;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: tomato;
+    border-radius: 4px;
 }
